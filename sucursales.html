@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supermercado Lo De Jorgito</title>
+    <title>Sucursales</title>
     <link rel="shortcut icon" href="imagenes/imglogo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -37,7 +37,7 @@
                           Sobre Nosotros
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Como Empezamos</a></li>
+                          <li><a class="dropdown-item" href="sobrenosotros.html">Sobre Nosotros</a></li>
                           <li><a class="dropdown-item" href="sucursales.html">Sucursales</a></li>
                           <li><a class="dropdown-item" href="#contacto">Contactanos</a></li>
                         </ul>
@@ -53,37 +53,136 @@
     <section class="carrusel">
         <!-- boton modo oscuro y claro -->
         <div class="modooscuro-izquierda">
-            <button class="botonDiaNoche" id="botonDark">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
-                        <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-                    </svg>
-                </span>
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
-                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
-                    </svg>
-                </span>
-            </button>
+          <button class="botonDiaNoche" id="botonDark">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+                <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+              </svg>
+            </span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+              </svg>
+            </span>
+          </button>
         </div>
+        <!-- titiulo de la seccion sucursales -->
+        <h1 class="titulocarrusel">Sucursales Activas</h1>
+        <h3>En la actualidad, "Lo de Jorgito" se enorgullece de contar con un total de 5 sucursales en pleno funcionamiento, lo que lo convierte en una opción confiable y conveniente para los compradores locales. Estas sucursales se encuentran estratégicamente ubicadas en diversas zonas para satisfacer las necesidades de nuestros clientes estas zonas son:</h3>
     </section>
 
-    <!-- card de la H2OH -->
-    <div class="container text-center productoindividual">
-        <div class="row">
-            <!-- img de la H2OH -->
-            <div class="col">
-                <img src="imagenes/H2OH.png" alt="">
-            </div>
-            <!-- descripcion de la H2OH y precio -->
-            <div class="col textoproducto" id="jugoindividual">
-                <h5>H2OH</h5>
-                <h2>Agua Saborizada H2OH! Citrus Botella 2.25 L</h2>
-                <h5>PepsiCo</h5>
-                <h4>$452,41<span></span></h4>
+    <!-- card de las sucursales -->
+    <section class="ubicaciones">
+        <div class="container text-center">
+            <div class="row">
+              <!-- mapa de la sucursal de san fernando -->
+                <div class="col">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.123086108387!2d-58.561771725316774!3d-34.44902327301007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca55e1c7d342d%3A0x31c5a4941cae26ec!2sLo%20De%20Jorgito!5e0!3m2!1ses!2sar!4v1695003923908!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- ubicacion de las sucursales -->
+                <div class="col">
+                    <div class="ubicacion">
+                        <h1>Localidad:</h1>
+                        <h2>San Fernando</h2>
+                        <h4>Dirección:</h4>
+                        <h5>Avenida Sobremonte 1530</h5>
+                        <h4>Provincia de:</h4>
+                        <h5>Buenos Aires</h5>
+                        <h4>Cordenadas:</h4>
+                        <h5>B1646AIF San Fernando</h5>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="container text-center">
+          <div class="row">
+              <!-- mapa de la sucursal de tigre -->
+              <div class="col">
+                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3290.358388323655!2d-58.5870203!3d-34.4430493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca50eca7aa0db%3A0xf851fdde291be90e!2sYAGUAR%20Supermercado%20Mayorista!5e0!3m2!1ses!2sar!4v1695075944131!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <!-- ubicacion de las sucursales -->
+              <div class="col">
+                  <div class="ubicacion">
+                    <h1>Localidad:</h1>
+                    <h2>Tigre</h2>
+                    <h4>Dirección:</h4>
+                    <h5>Avenida Crisólogo Larralde</h5>
+                    <h4>Provincia de:</h4>
+                    <h5>Buenos Aires</h5>
+                    <h4>Cordenadas:</h4>
+                    <h5>B1646AIF Tigre</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+          
+        <div class="container text-center">
+          <div class="row">
+              <!-- mapa de la sucursal de temperley -->
+              <div class="col">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13107.858363519163!2d-58.4063889!3d-34.7816667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2fd26094e21%3A0xd4b4f55ed9d291!2sCOTO!5e0!3m2!1ses!2sar!4v1695075635821!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <!-- ubicacion de las sucursales -->
+              <div class="col">
+                  <div class="ubicacion">
+                    <h1>Localidad:</h1>
+                    <h2>Temperley</h2>
+                    <h4>Dirección:</h4>
+                    <h5>Avenida Hipólito Yrigoyen</h5>
+                    <h4>Provincia de:</h4>
+                    <h5>Buenos Aires</h5>
+                    <h4>Cordenadas:</h4>
+                    <h5>B1646AIF Temperley</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <div class="row">
+              <!-- mapa de la sucursal de san martin -->
+              <div class="col">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6571.2671748700795!2d-58.5601041!3d-34.5628316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9e22eacd55d%3A0x73a67aaf0b7ad97b!2sJumbo%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1695075762894!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <!-- ubicacion de las sucursales -->
+              <div class="col">
+                  <div class="ubicacion">
+                      <h1>Localidad:</h1>
+                      <h2>San Martin</h2>
+                      <h4>Dirección:</h4>
+                      <h5>San Lorenzo, Villa Ballester</h5>
+                      <h4>Provincia de:</h4>
+                      <h5>Buenos Aires</h5>
+                      <h4>Cordenadas:</h4>
+                      <h5>B1646AIF San Martin</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <div class="row">
+              <!-- mapa de la sucursal de san miguel -->
+              <div class="col">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d210317.98585741138!2d-58.8778589!3d-34.548022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd680a903eb5%3A0x269792be518e2065!2sDisco!5e0!3m2!1ses!2sar!4v1695076247032!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <!-- ubicacion de las sucursales -->
+              <div class="col">
+                  <div class="ubicacion">
+                      <h1>Localidad:</h1>
+                      <h2>San Miguel</h2>
+                      <h4>Dirección:</h4>
+                      <h5>Avenida Moron Senador 960</h5>
+                      <h4>Provincia de:</h4>
+                      <h5>Buenos Aires</h5>
+                      <h4>Cordenadas:</h4>
+                      <h5>B1661INW San Miguel</h5>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
 
     <!-- seccion de contacto -->
     <section id="contacto">
